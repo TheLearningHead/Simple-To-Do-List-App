@@ -1,4 +1,4 @@
-// Simple To-Do List App: Only add, mark as done, and delete tasks. No calendar, no settings, no filters, no modal.
+// Simple To-Do List App: Only add, mark as done, and delete tasks. 
 
 // Load tasks from localStorage or set to empty array
 let tasks = JSON.parse(localStorage.getItem("simpleTasks")) || [];
