@@ -8,7 +8,7 @@ const taskInput = document.getElementById("taskInput");
 const addTaskButton = document.getElementById("addTaskButton");
 const taskList = document.getElementById("taskList");
 
-// Render all tasks
+// Render all tasks from localStorage on page load
 function renderTasks() {
     taskList.innerHTML = "";
     tasks.forEach((task, index) => {
@@ -53,7 +53,7 @@ function toggleTask(index) {
 
 // Delete a task
 function deleteTask(index) {
-    tasks.splice(index, 1);
+    tasks.splice(index, 1); // Remove the task on the specified index
     saveTasks();
     renderTasks();
 }
