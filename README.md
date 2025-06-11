@@ -27,6 +27,7 @@
 
 1. <b>Clone or Download</b> this repository.
 2. Open <code>index.html</code> in your web browser.
+3. Or simply use it online at: [thelearninghead.github.io/Simple-To-Do-List-App/](https://thelearninghead.github.io/Simple-To-Do-List-App/)
 
 <sub>No build tools or installations required!</sub>
 
